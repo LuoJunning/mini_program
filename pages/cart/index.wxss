@@ -1,0 +1,125 @@
+page {
+  padding-bottom: 90rpx;
+}
+/*  收货地址  */
+.cart_address_row .addres_btn {
+  padding: 20rpx;
+}
+.cart_address_row .addres_btn button {
+  width: 60%;
+}
+.cart_address_row .userInfo_row {
+  display: flex;
+  padding: 20rpx;
+}
+.cart_address_row .userInfo_row .userInfo {
+  flex: 5;
+}
+.cart_address_row .userInfo_row .userInfo_phone {
+  flex: 3;
+  text-align: right;
+}
+/*  购物车内容  */
+.cart_content .cart_title {
+  padding: 20rpx;
+  font-size: 48rpx;
+  color: var(--themeColor);
+  border-top: 1rpx solid currentColor;
+  border-bottom: 1rpx solid currentColor;
+}
+.cart_content .cart_main .cart_item {
+  padding: 10rpx;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.cart_content .cart_main .cart_item .cart_chk_wrap {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_content .cart_main .cart_item .cart_img_wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_content .cart_main .cart_item .cart_img_wrap image {
+  width: 80%;
+}
+.cart_content .cart_main .cart_item .cart_info_wrap {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10rpx;
+}
+.cart_content .cart_main .cart_item .cart_info_wrap .cart_name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #666;
+}
+.cart_content .cart_main .cart_item .cart_info_wrap .cart_price_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_content .cart_main .cart_item .cart_info_wrap .cart_price_wrap .cart_price {
+  font-size: 32rpx;
+  color: var(--themeColor);
+}
+.cart_content .cart_main .cart_item .cart_info_wrap .cart_price_wrap .cart_tool_wrap {
+  display: flex;
+}
+.cart_content .cart_main .cart_item .cart_info_wrap .cart_price_wrap .cart_tool_wrap .num_edit {
+  flex: 1;
+  width: 55rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  text-align: center;
+  border: 1rpx solid #ccc;
+}
+.cart_content .cart_main .cart_item .cart_info_wrap .cart_price_wrap .cart_tool_wrap .goods_num {
+  flex: 1;
+  width: 55rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  text-align: center;
+}
+/*  底部工具栏  */
+.cart_tool {
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  height: 90rpx;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.cart_tool .tool_all_chk {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_tool .all_price_wrap {
+  flex: 5;
+  padding-right: 10rpx;
+  text-align: right;
+}
+.cart_tool .all_price_wrap .all_price .price {
+  color: var(--themeColor);
+  font-size: 34rpx;
+  font-weight: 700;
+}
+.cart_tool .pay {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: var(--themeColor);
+}

@@ -1,0 +1,12 @@
+{
+    "prettier.useEditorConfig": false,
+    "prettier.trailingComma": "none",
+    "vetur.format.options.useTabs": true,
+    "[dart]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.suggest.insertMode": "replace"
+    },
+    "prettier.useTabs": true
+}
